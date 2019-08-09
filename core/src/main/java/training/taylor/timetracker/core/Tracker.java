@@ -11,15 +11,15 @@ public class Tracker {
     @Autowired
     private List<TimeEntry> entries;
 
-    private void add(TimeEntry entry) {
+    public void add(TimeEntry entry) {
         entries.add(entry);
     }
 
-    private void remove(TimeEntry entry) {
+    public void remove(TimeEntry entry) {
         entries.remove(entry);
     }
 
-    private int size() {
+    public int size() {
         return entries.size();
     }
 
