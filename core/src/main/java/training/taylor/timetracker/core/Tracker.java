@@ -11,19 +11,19 @@ public class Tracker {
     @Autowired
     private List<TimeEntry> entries;
 
-    public void add(TimeEntry entry) {
+    private void add(TimeEntry entry) {
         entries.add(entry);
     }
 
-    public void remove(TimeEntry entry) {
+    private void remove(TimeEntry entry) {
         entries.remove(entry);
     }
 
-    public int size() {
+    private int size() {
         return entries.size();
     }
 
-    public TimeEntry get(int index) {
+    private TimeEntry get(int index) {
         return entries.get(index);
     }
 }
