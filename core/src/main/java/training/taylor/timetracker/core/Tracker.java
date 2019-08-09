@@ -35,7 +35,7 @@ public class Tracker {
 
         boolean valid = false;
 
-        if (valid = true) {
+        if (valid == true) {
             // whatever
         }
 
